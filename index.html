@@ -1,1165 +1,146 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
 
-<html>
-	<head>
-		<title>LKC App Download</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<style type="text/css">
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<style type="text/css" >
+	html, body{ margin:0; padding:0;  }
+	table{ margin-top: 0px !important; padding-top: 0px !important; }
+</style>
+
+<style type="text/css" >
+	[office365] button{ margin:0 !important; padding:0 !important; display:block !important; }
+	[office365] div{ margin:0 !important; padding:0 !important; display:block !important; }
+</style>
 
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-		margin: 0;
+<style type="text/css">
+		a img{ color:#000001 !important; }
+
+.wysiwyg-text-align-right{ text-align: right; }
+.wysiwyg-text-align-center { text-align: center; }
+.wysiwyg-text-align-left{ text-align: left; }
+.wysiwyg-text-align-justify{ text-align: justify; }
+
+h1, #email-522157 h1{ text-shadow:none; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0; color:#000000!important; font-weight:400; font-style:normal; font-family:Arial; font-size:36px; line-height:44px; }
+
+h2, #email-522157 h2{ text-shadow:none; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0; color:#000000!important; font-weight:400; font-style:normal; font-family:Arial; font-size:20px; line-height:24px; }
+
+h3, #email-522157 h3{ text-shadow:none; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0; color:#000000!important; font-weight:400; font-style:normal; font-family:Arial; font-size:20px; line-height:22px; }
+
+p, #email-522157 p{ text-shadow:none; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0; color:#000000!important; font-style:normal; font-family:Arial; font-size:14px; line-height:24px; }
+
+a, #email-522157 a{ text-shadow:none; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0; color:#FFFFFF!important; text-decoration:none; }
+
+
+.h1_color_span_wrapper{ color: #000000; }
+.h2_color_span_wrapper{ color: #000000; }
+.h3_color_span_wrapper{ color: #000000; }
+.p_color_span_wrapper{ color: #000000; }
+.a_color_span_wrapper{ color: #FFFFFF; }
+
+
+		.mi-all{ display: block; }
+		.mi-desktop{ display: block; }
+
+	.mi-mobile{
+		display: none;
+		font-size: 0; 
+		max-height: 0; 
+		line-height: 0; 
 		padding: 0;
-		border: 0;
-		font-size: 100%;
-		font: inherit;
-		vertical-align: baseline;
-	}
-
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-		display: block;
-	}
-
-	body {
-		line-height: 1;
-	}
-
-	ol, ul {
-		list-style: none;
-	}
-
-	blockquote, q {
-		quotes: none;
-	}
-
-	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
-		content: none;
-	}
-
-	table {
-		border-collapse: collapse;
-		border-spacing: 0;
-	}
-
-	body {
-		-webkit-text-size-adjust: none;
-	}
-
-/* Box Model */
-
-	*, *:before, *:after {
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-
-/* Basic */
-
-	@-ms-viewport {
-		width: device-width;
-	}
-
-	body {
-		-ms-overflow-style: scrollbar;
-	}
-
-	@media screen and (max-width: 360px) {
-
-		html, body {
-			min-width: 320px;
-		}
-
-	}
-
-	body {
-		background: #ffffff;
-	}
-
-		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
-
-/* Type */
-
-	body {
-		color: #999999;
-	}
-
-	html, input, select, textarea {
-		font-size: 16pt;
-		background-color: #c7d0d3;
-	}
-
-		@media screen and (max-width: 1680px) {
-
-			html, input, select, textarea {
-				font-size: 13pt;
-				background-color: #c7d0d3;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			html, input, select, textarea {
-				font-size: 12pt;
-				background-color: #c7d0d3;
-			}
-
-		}
-
-		@media screen and (max-width: 360px) {
-
-			html, input, select, textarea {
-				font-size: 11pt;
-				background-color: #c7d0d3;
-			}
-
-		}
-
-	body, input, select, textarea {
-		font-family: Arial, Helvetica, sans-serif;
-		font-weight: normal;
-		line-height: 1.5em;
-		letter-spacing: -0.015em;
-	}
-
-	a {
-		-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		text-decoration: none;
-		border-bottom: dotted 1px;
-	}
-
-		a:hover {
-			border-bottom-color: transparent !important;
-		}
-
-	strong, b {
-		font-weight: bold;
-	}
-
-	em, i {
-		font-style: italic;
-	}
-
-	p {
-		margin: 0 0 2em 0;
-	}
-
-	h1, h2, h3, h4, h5, h6 {
-		font-weight: normal;
-		line-height: 1em;
-		margin: 0 0 1em 0;
-		letter-spacing: -0.0125em;
-	}
-
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
-			border-bottom: none;
-		}
-
-		@media screen and (max-width: 980px) {
-
-			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
-				display: none;
-			}
-
-		}
-
-	h2 {
-		font-size: 1.75em;
-		line-height: 1.5em;
-	}
-
-	h3 {
-		font-size: 1.5em;
-		line-height: 1.5em;
-	}
-
-	h4 {
-		font-size: 1.1em;
-		line-height: 1.5em;
-	}
-
-	h5 {
-		font-size: 0.9em;
-		line-height: 1.5em;
-	}
-
-	h6 {
-		font-size: 0.7em;
-		line-height: 1.5em;
-	}
-
-	@media screen and (max-width: 736px) {
-
-		h2 {
-			font-size: 1.25em;
-		}
-
-		h3 {
-			font-size: 1.2em;
-		}
-
-		h4 {
-			font-size: 1em;
-		}
-
-	}
-
-	sub {
-		font-size: 0.8em;
-		position: relative;
-		top: 0.5em;
-	}
-
-	sup {
-		font-size: 0.8em;
-		position: relative;
-		top: -0.5em;
-	}
-
-	blockquote {
-		border-left-style: solid;
-		border-left-width: 4px;
-		font-style: italic;
-		margin: 0 0 2em 0;
-		padding: 0.5em 0 0.5em 2em;
-	}
-
-	code {
-		border-radius: 6px;
-		border-style: solid;
-		border-width: 1px;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
-		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
-	}
-
-	pre {
-		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
-		margin: 0 0 2em 0;
-	}
-
-		pre code {
-			display: block;
-			line-height: 1.75em;
-			padding: 1em 1.5em;
-			overflow-x: auto;
-		}
-
-	hr {
-		border: 0;
-		border-bottom-style: solid;
-		border-bottom-width: 1px;
-		margin: 2em 0;
-	}
-
-		hr.major {
-			margin: 3em 0;
-		}
-
-	.align-left {
-		text-align: left;
-	}
-
-	.align-center {
-		text-align: center;
-	}
-
-	.align-right {
-		text-align: right;
-	}
-
-	input, select, textarea {
-		color: #999999;
-	}
-
-	a {
-		color: inherit;
-		border-bottom-color: #d6d6d6;
-	}
-
-		a:hover {
-			color: #ccd6d9;
-		}
-
-	strong, b {
-		color: #828282;
-	}
-
-	h1, h2, h3, h4, h5, h6 {
-		color: #828282;
-	}
-
-	blockquote {
-		border-left-color: #e6e6e6;
-	}
-
-	code {
-		background: rgba(144, 144, 144, 0.075);
-		border-color: #e6e6e6;
-	}
-
-	hr {
-		border-bottom-color: #e6e6e6;
-	}
-
-/* Button */
-
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-radius: 6px;
-		border: 0;
-		cursor: pointer;
-		display: inline-block;
-		font-weight: bold;
-		height: 2.85em;
-		line-height: 2.95em;
-		padding: 0 1.75em;
-		text-align: center;
-		text-decoration: none;
-		white-space: nowrap;
-	}
-
-		input[type="submit"].icon,
-		input[type="reset"].icon,
-		input[type="button"].icon,
-		button.icon,
-		.button.icon {
-			padding-left: 1.35em;
-		}
-
-			input[type="submit"].icon:before,
-			input[type="reset"].icon:before,
-			input[type="button"].icon:before,
-			button.icon:before,
-			.button.icon:before {
-				margin-right: 0.5em;
-			}
-
-		input[type="submit"].fit,
-		input[type="reset"].fit,
-		input[type="button"].fit,
-		button.fit,
-		.button.fit {
-			display: block;
-			margin: 0 0 1em 0;
-			width: 100%;
-		}
-
-		input[type="submit"].small,
-		input[type="reset"].small,
-		input[type="button"].small,
-		button.small,
-		.button.small {
-			font-size: 0.8em;
-		}
-
-		input[type="submit"].big,
-		input[type="reset"].big,
-		input[type="button"].big,
-		button.big,
-		.button.big {
-			font-size: 1.35em;
-		}
-
-		input[type="submit"].disabled, input[type="submit"]:disabled,
-		input[type="reset"].disabled,
-		input[type="reset"]:disabled,
-		input[type="button"].disabled,
-		input[type="button"]:disabled,
-		button.disabled,
-		button:disabled,
-		.button.disabled,
-		.button:disabled {
-			-moz-pointer-events: none;
-			-webkit-pointer-events: none;
-			-ms-pointer-events: none;
-			pointer-events: none;
-			cursor: default;
-			opacity: 0.25;
-		}
-
-	@media screen and (max-width: 480px) and (orientation: portrait) {
-
-		input[type="submit"],
-		input[type="reset"],
-		input[type="button"],
-		button,
-		.button {
-			padding: 0;
-		}
-
-	}
-
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		background-color: transparent;
-		color: #828282 !important;
-		box-shadow: inset 0 0 0 2px #e6e6e6;
-	}
-
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		button:hover,
-		.button:hover {
-			background-color: rgba(144, 144, 144, 0.075);
-		}
-
-		input[type="submit"]:active,
-		input[type="reset"]:active,
-		input[type="button"]:active,
-		button:active,
-		.button:active {
-			background-color: rgba(144, 144, 144, 0.15);
-		}
-
-		input[type="submit"].special,
-		input[type="reset"].special,
-		input[type="button"].special,
-		button.special,
-		.button.special {
-			box-shadow: none;
-			background-color: #ccd6d9;
-			color: #ffffff !important;
-		}
-
-			input[type="submit"].special:hover,
-			input[type="reset"].special:hover,
-			input[type="button"].special:hover,
-			button.special:hover,
-			.button.special:hover {
-				background-color: #5ca3e8;
-			}
-
-			input[type="submit"].special:active,
-			input[type="reset"].special:active,
-			input[type="button"].special:active,
-			button.special:active,
-			.button.special:active {
-				background-color: #3089e2;
-			}	
-
-/* Icon */
-
-	.icon {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
-
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
-		}
-
-		.icon > .label {
-			display: none;
-		}
-
-	.icon {
-		color: #e0e0e0;
-	}
-
-/* Image */
-
-	.image {
-		border-radius: 6px;
-		border: 0;
-		display: inline-block;
-		position: relative;
+		float: left;
 		overflow: hidden;
-	}
-
-		.image img {
-			border-radius: 6px;
-			display: block;
-		}
-
-		.image.left, .image.right {
-			max-width: 40%;
-		}
-
-			.image.left img, .image.right img {
-				width: 100%;
-			}
-
-		.image.left {
-			float: left;
-			margin: 0 1.5em 1em 0;
-			top: 0.25em;
-		}
-
-		.image.right {
-			float: right;
-			margin: 0 0 1em 1.5em;
-			top: 0.25em;
-		}
-
-		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
-		}
-
-			.image.fit img {
-				width: 100%;
-			}
-
-		.image.main {
-			display: block;
-			margin: 0 0 3em 0;
-			width: 100%;
-		}
-
-			.image.main img {
-				width: 100%;
-			}
-
-		.image.phone {
-			box-shadow: none;
-			border-radius: 0;
-			margin: 0 0 3em 0;
-			width: 13em;
-		}
-
-			.image.phone img {
-				border-radius: 0;
-				display: block;
-				position: relative;
-				width: 100%;
-			}
-
-			.image.phone .inner, .image.phone:before, .image.phone:after {
-				display: block;
-				border: solid 2px rgba(255, 255, 255, 0.25);
-			}
-
-			.image.phone .inner {
-				position: relative;
-			}
-
-				.image.phone .inner:before, .image.phone .inner:after {
-					content: '';
-					position: absolute;
-					left: 50%;
-				}
-
-				.image.phone .inner:before {
-					top: -1.375em;
-					margin-left: -1em;
-					width: 2em;
-					height: 0.25em;
-					border-radius: 0.5em;
-					background: rgba(255, 255, 255, 0.25);
-				}
-
-				.image.phone .inner:after {
-					bottom: -2.75em;
-					margin-left: -1em;
-					width: 2em;
-					height: 2em;
-					border-radius: 100%;
-					border: solid 2px rgba(255, 255, 255, 0.25);
-				}
-
-			.image.phone:before, .image.phone:after {
-				content: '';
-			}
-
-			.image.phone:before {
-				height: 2.5em;
-				border-radius: 1em 1em 0 0;
-				border-bottom: 0;
-			}
-
-			.image.phone:after {
-				height: 3.5em;
-				border-radius: 0 0 1em 1em;
-				border-top: 0;
-			}
-
-	.image {
-		box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
-	}
-
-		.image.phone {
-			box-shadow: none;
-		}
-
-			.image.phone .inner, .image.phone:before, .image.phone:after {
-				border-color: #e6e6e6;
-			}
-
-			.image.phone .inner:before {
-				background: #e6e6e6;
-			}
-
-			.image.phone .inner:after {
-				border-color: #e6e6e6;
-			}
-
-/* List */
-
-	ol {
-		list-style: decimal;
-		margin: 0 0 2em 0;
-		padding-left: 1.25em;
-	}
-
-		ol li {
-			padding-left: 0.25em;
-		}
-
-	ul {
-		list-style: disc;
-		margin: 0 0 2em 0;
-		padding-left: 1em;
-	}
-
-		ul li {
-			padding-left: 0.5em;
-		}
-
-		ul.alt {
-			list-style: none;
-			padding-left: 0;
-		}
-
-			ul.alt li {
-				border-top-style: solid;
-				border-top-width: 1px;
-				padding: 0.5em 0;
-			}
-
-				ul.alt li:first-child {
-					border-top: 0;
-					padding-top: 0;
-				}
-
-		ul.icons {
-			cursor: default;
-			list-style: none;
-			padding-left: 0;
-		}
-
-			ul.icons li {
-				display: inline-block;
-				padding: 0 1.5em 0 0;
-			}
-
-				ul.icons li:last-child {
-					padding-right: 0 !important;
-				}
-
-				ul.icons li .icon:before {
-					font-size: 1.75rem;
-				}
-
-			ul.icons.major li {
-				padding: 0 2.5em 0 0;
-			}
-
-				ul.icons.major li .icon:before {
-					font-size: 2.75rem;
-				}
-
-			ul.icons.labeled li {
-				margin: 1em 0;
-				padding: 0 2em 0 0;
-			}
-
-				ul.icons.labeled li .icon:before {
-					vertical-align: middle;
-					font-size: 2.25rem;
-					margin-right: 0.5em;
-				}
-
-				ul.icons.labeled li .icon .label {
-					display: inline-block;
-					vertical-align: middle;
-					color: #999999;
-				}
-
-		ul.actions {
-			cursor: default;
-			list-style: none;
-			padding-left: 0;
-		}
-
-			ul.actions li {
-				display: inline-block;
-				padding: 0 1em 0 0;
-				vertical-align: middle;
-			}
-
-				ul.actions li:last-child {
-					padding-right: 0;
-				}
-
-			ul.actions.small li {
-				padding: 0 0.5em 0 0;
-			}
-
-			ul.actions.vertical li {
-				display: block;
-				padding: 1em 0 0 0;
-			}
-
-				ul.actions.vertical li:first-child {
-					padding-top: 0;
-				}
-
-				ul.actions.vertical li > * {
-					margin-bottom: 0;
-				}
-
-			ul.actions.vertical.small li {
-				padding: 0.5em 0 0 0;
-			}
-
-				ul.actions.vertical.small li:first-child {
-					padding-top: 0;
-				}
-
-			ul.actions.fit {
-				display: table;
-				margin-left: -1em;
-				padding: 0;
-				table-layout: fixed;
-				width: calc(100% + 1em);
-			}
-
-				ul.actions.fit li {
-					display: table-cell;
-					padding: 0 0 0 1em;
-				}
-
-					ul.actions.fit li > * {
-						margin-bottom: 0;
-					}
-
-				ul.actions.fit.small {
-					margin-left: -0.5em;
-					width: calc(100% + 0.5em);
-				}
-
-					ul.actions.fit.small li {
-						padding: 0 0 0 0.5em;
-					}
-
-
-	dl {
-		margin: 0 0 2em 0;
-	}
-
-		dl dt {
-			display: block;
-			font-weight: bold;
-			margin: 0 0 1em 0;
-		}
-
-		dl dd {
-			margin-left: 2em;
-		}
-
-	ul.alt > li {
-		border-top-color: #e6e6e6;
+		mso-hide: all; /* hide elements in Outlook 2007-2013 */
 	}
 
 
-/* Header */
+</style>
 
-	#header {
-		background-color: #ccd6d9;
-		color: #696969;
-		padding: 4.5em 0 2.5em 0 ;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		background-position: top left, center center;
-		background-attachment: fixed, fixed;
-		background-size: auto, cover;
-		height: 100vh;
-		min-height: 35em;
+<style type="text/css" >
+
+	div, p, a, li, td { -webkit-text-size-adjust:none; }
+	
+	@media only screen and (max-device-width: 480px), screen and (max-width: 480px), screen and (orientation: landscape) and (max-width: 630px) {
+		
+		/* very important! all except 'all' and this current type get a display:none; */
+		.mi-desktop{ display: none !important; }
+
+		/* then show the mobile one */
+		.mi-mobile{ 
+			display: block !important;
+			font-size: 12px !important;
+			max-height: none !important;
+			line-height: 1.5 !important;
+			float: none !important;
+			overflow: visible !important;
+		}
 	}
 
-		#header input[type="submit"],
-		#header input[type="reset"],
-		#header input[type="button"],
-		#header button,
-		#header .button {
-			background-color: transparent;
-			color: #ffffff !important;
-			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
-		}
-
-			#header input[type="submit"]:hover,
-			#header input[type="reset"]:hover,
-			#header input[type="button"]:hover,
-			#header button:hover,
-			#header .button:hover {
-				background-color: rgba(255, 255, 255, 0.075);
-			}
-
-			#header input[type="submit"]:active,
-			#header input[type="reset"]:active,
-			#header input[type="button"]:active,
-			#header button:active,
-			#header .button:active {
-				background-color: rgba(255, 255, 255, 0.2);
-			}
-
-			#header input[type="submit"].special,
-			#header input[type="reset"].special,
-			#header input[type="button"].special,
-			#header button.special,
-			#header .button.special {
-				box-shadow: none;
-				background-color: #000000;
-				color: #FFF !important;
-			}
-
-		#header label {
-			color: #ffffff;
-		}
-
-		#header input[type="text"],
-		#header input[type="password"],
-		#header input[type="email"],
-		#header select,
-		#header textarea {
-			color: inherit;
-			background-color: rgba(255, 255, 255, 0.075);
-			border-color: rgba(255, 255, 255, 0.25);
-		}
-
-			#header input[type="text"]:focus,
-			#header input[type="password"]:focus,
-			#header input[type="email"]:focus,
-			#header select:focus,
-			#header textarea:focus {
-				border-color: #ffffff;
-				box-shadow: 0 0 0 1px #ffffff;
-			}
-
-		#header .select-wrapper:before {
-			color: rgba(255, 255, 255, 0.25);
-		}
-
-		#header input[type="checkbox"] + label,
-		#header input[type="radio"] + label {
-			color: #696969;
-		}
-
-			#header input[type="checkbox"] + label:before,
-			#header input[type="radio"] + label:before {
-				background-color: rgba(255, 255, 255, 0.075);
-				border-color: rgba(255, 255, 255, 0.25);
-			}
-
-		#header input[type="checkbox"]:checked + label:before,
-		#header input[type="radio"]:checked + label:before {
-			background-color: #ffffff;
-			border-color: #ffffff;
-			color: #ccd6d9;
-		}
-
-		#header input[type="checkbox"]:focus + label:before,
-		#header input[type="radio"]:focus + label:before {
-			border-color: #ffffff;
-			box-shadow: 0 0 0 1px #ffffff;
-		}
-
-		#header ::-webkit-input-placeholder {
-			color: #b5d5f4 !important;
-		}
-
-		#header :-moz-placeholder {
-			color: #b5d5f4 !important;
-		}
-
-		#header ::-moz-placeholder {
-			color: #b5d5f4 !important;
-		}
-
-		#header :-ms-input-placeholder {
-			color: #b5d5f4 !important;
-		}
-
-		#header .formerize-placeholder {
-			color: #b5d5f4 !important;
-		}
-
-		#header .icon {
-			color: #b5d5f4;
-		}
-
-		#header .image {
-			box-shadow: 0 0 0 4px #ccd6d9, 0 0 0 5px rgba(255, 255, 255, 0.25);
-		}
-
-			#header .image.phone {
-				box-shadow: none;
-			}
-
-				#header .image.phone .inner, #header .image.phone:before, #header .image.phone:after {
-					border-color: rgba(255, 255, 255, 0.25);
-				}
-
-				#header .image.phone .inner:before {
-					background: rgba(255, 255, 255, 0.25);
-				}
-
-				#header .image.phone .inner:after {
-					border-color: rgba(255, 255, 255, 0.25);
-				}
-
-		#header ul.alt > li {
-			border-top-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#header table tbody tr {
-			border-color: rgba(255, 255, 255, 0.25);
-		}
-
-			#header table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(255, 255, 255, 0.075);
-			}
-
-		#header table th {
-			color: #ffffff;
-		}
-
-		#header table thead {
-			border-bottom-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#header table tfoot {
-			border-top-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#header table.alt tbody tr td {
-			border-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#header input, #header select, #header textarea {
-			color: #696969;
-		}
-
-		#header a {
-			color: inherit;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
-			color: #696969;
-		}
-
-		#header strong, #header b {
-			color: #ffffff;
-		}
-
-		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
-		}
-
-		#header blockquote {
-			border-left-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#header code {
-			background: rgba(255, 255, 255, 0.075);
-			border-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#header hr {
-			border-bottom-color: rgba(255, 255, 255, 0.25);
-		}
-
-		#header h1 {
-			font-size: 3.25em;
-			font-weight: bold;
-			margin-bottom: 0.5em;
-		}
-
-		#header p {
-			font-size: 1.5em;
-			line-height: 1.35em;
-		}
-
-			#header p br {
-				display: inline;
-			}
-
-		#header .content {
-			-moz-transition: opacity 0.5s ease, -moz-transform 1s ease;
-			-webkit-transition: opacity 0.5s ease, -webkit-transform 1s ease;
-			-ms-transition: opacity 0.5s ease, -ms-transform 1s ease;
-			transition: opacity 0.5s ease, transform 1s ease;
-			-moz-transform: translateX(0);
-			-webkit-transform: translateX(0);
-			-ms-transform: translateX(0);
-			transform: translateX(0);
-			opacity: 1;
-			text-align: right;
-			margin: -3.5em 4em 0 0;
-		}
-
-			#header .content > :last-child {
-				margin-bottom: 0;
-			}
-
-		#header .image {
-			-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-			-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-			transition: opacity 1s ease, transform 1s ease;
-			-moz-transform: translateY(0);
-			-webkit-transform: translateY(0);
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			opacity: 1;
-		}
-
-			#header .image img {
-				-moz-transition: opacity 0.75s ease;
-				-webkit-transition: opacity 0.75s ease;
-				-ms-transition: opacity 0.75s ease;
-				transition: opacity 0.75s ease;
-				-moz-transition-delay: 0.75s;
-				-webkit-transition-delay: 0.75s;
-				-ms-transition-delay: 0.75s;
-				transition-delay: 0.75s;
-				opacity: 1;
-			}
-
-
-		@media screen and (max-width: 980px) {
-
-			#header {
-				height: auto;
-				min-height: 0;
-			}
-
-				#header .content {
-					margin: -2em 4em 0 0;
-				}
-
-		}
-
-		@media screen and (max-width: 980px) and (orientation: portrait) {
-
-			#header {
-				padding: 6em 3em 4em 3em ;
-				-moz-flex-direction: column-reverse;
-				-webkit-flex-direction: column-reverse;
-				-ms-flex-direction: column-reverse;
-				flex-direction: column-reverse;
-			}
-
-				#header .content {
-					display: block;
-					width: 100%;
-					text-align: center;
-					margin: 0 0 2em 0;
-				}
-
-				#header .image {
-					overflow: hidden;
-				}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-
-				#header h1 {
-					font-size: 2em;
-				}
-
-				#header p {
-					font-size: 1em;
-					line-height: inherit;
-				}
-
-		}
-
-
-		@media screen and (max-width: 736px) {
-
-			#header {
-				padding: 3em 1.5em 1em 1.5em ;
-			}
-
-				#header .image {
-					font-size: 0.6em;
-					max-width: 60vw;
-				}
-
-		}
-
-		</style>
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body id="top">
-
-		<!-- Header -->
-			<header id="header">
-				<div class="content" style="text-align: center;">
-					<h1><a href="#">LKC App</a></h1>
-					<p>Download for</p>
-					<ul class="actions">
-						<li><a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/giovanipt/IoT/master/manifest.plist" class="button special icon fa-apple">Apple &nbsp; &nbsp;</a></li>
-						<li><a href="https://raw.githubusercontent.com/giovanipt/IoT/master/knowledge-center.apk" class="button special icon fa-android">Android &nbsp; &nbsp;</a></li>
-					</ul>
-				</div>
-			</header>
-
-	</body>
+</style>
+
+	
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   
+</head><body id="email-522157" style="background-color: #FFFFFF; font-family: sans-serif; margin-top: 0px !important; padding-top: 0px !important" bgcolor="#FFFFFF"><table width="1" height="1" cellpadding="0" cellspacing="0" border="0"><tr><td style="font-size: 0px; line-height: 0px"><img src="http://t.inkbrush.com/p/cp/2006ea277ddfac90/o.gif" width="1" height="1" /></td></tr></table><table align="center" cellpadding="0" cellspacing="0" width="100%" style="background-color: #FFFFFF; border: 0; border-collapse: collapse; border-spacing: 0; margin: 0px 0 0; padding: 0" bgcolor="#FFFFFF"><tr align="center" style="border: 0; border-collapse: collapse; border-spacing: 0">
+						<td align="center" valign="top" style="border: 0; border-collapse: collapse; border-spacing: 0">
+									
+<div class="mi-all" style="display: block"><table width="700" class="mi-all" align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; display: block; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td align="left" valign="top" style="height: 283px; width: 700px"><a href="http://lkc.oraclecorp.com/realTimeFeedback/" target="_blank" style="border: none; color: #FFFFFF !important; display: block; font-size: 10px; line-height: 0;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-decoration: none; text-shadow: none"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-0f4bd30dee03496ac7cc0bfc01ff2fee731cb1b7.jpg" style="border: 0; color: #000001 !important; display: block; height: 283px; line-height: 0; max-height: 283px; max-width: 700px; min-height: 283px; min-width: 700px; width: 700px" /></a></td></tr></tbody></table></td></tr></tbody></table></div>
+
+
+									
+<div class="mi-all" style="display: block"><table width="700" class="mi-all" align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; display: block; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td align="left" valign="top"><table align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="background-color: #FFFFFF; border: 0; border-collapse: collapse; border-spacing: 0" bgcolor="#FFFFFF"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td width="700" align="left" valign="middle" height="62" style="background-color: #FFFFFF; height: 62px; width: 700px" bgcolor="#FFFFFF"><table align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; margin: 0; min-width: 700px; padding: 0; width: 700px"><tbody><tr><td style="font-size: 1px; line-height: 1px" width="20"> </td><td><!-- content start --><h3 style="color: #000000 !important; font-family: Arial; font-size: 20px; font-style: normal; font-weight: 400; line-height: 22px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-align: left; text-shadow: none" align="left"><span class="h3_color_span_wrapper" style="color: #000000"><strong>Who gave the feedback:</strong> giovani.ticianelli@oracle.com</span></h3><!-- content end --></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr align="left" style="background-color: #FFFFFF; border: 0; border-collapse: collapse; border-spacing: 0" bgcolor="#FFFFFF"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td width="700" align="left" valign="middle" height="62" style="background-color: #FFFFFF; height: 62px; width: 700px" bgcolor="#FFFFFF"><table align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; margin: 0; min-width: 700px; padding: 0; width: 700px"><tbody><tr><td style="font-size: 1px; line-height: 1px" width="20"> </td><td><!-- content start --><h3 style="color: #000000 !important; font-family: Arial; font-size: 20px; font-style: normal; font-weight: 400; line-height: 22px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-shadow: none"><span class="h3_color_span_wrapper" style="color: #000000"><strong>Feedback date:</strong> 26/07/2017</span></h3><!-- content end --></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr align="left" style="background-color: #FFFFFF; border: 0; border-collapse: collapse; border-spacing: 0" bgcolor="#FFFFFF"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td width="700" align="left" valign="middle" height="72" style="background-color: #FFFFFF; height: 72px; width: 700px" bgcolor="#FFFFFF"><!-- content start --><h1 style="color: #000000 !important; font-family: Arial; font-size: 36px; font-style: normal; font-weight: 400; line-height: 44px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-align: center; text-shadow: none" align="center"><span class="h1_color_span_wrapper" style="color: #000000"><strong>Shifter Profile Feedback</strong></span></h1><!-- content end --></td></tr></tbody></table></td></tr></tbody></table></div>
+
+
+									
+<div class="mi-all" style="display: block"><table width="700" class="mi-all" align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; display: block; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td align="left" valign="top" style="height: 13px; width: 700px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-72ac503aafbf53009629e919a51ac03163dba0bf.jpg" style="border: 0; display: block; height: 13px; line-height: 0; max-height: 13px; max-width: 700px; min-height: 13px; min-width: 700px; width: 700px" /></td></tr></tbody></table></td></tr></tbody></table></div>
+
+
+									
+<div class="mi-all" style="display: block"><table width="700" class="mi-all" align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; display: block; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td align="left" valign="top"><table align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td align="left" valign="top" style="height: 39px; width: 52px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-57a481113e80f0b1283c1bc1b9058699713e385c.jpg" style="border: 0; display: block; height: 39px; line-height: 0; max-height: 39px; max-width: 52px; min-height: 39px; min-width: 52px; width: 52px" /></td><td width="330" align="left" valign="middle" height="39" style="background-color: #DEE0DF; height: 39px; width: 330px" bgcolor="#DEE0DF"><!-- content start --><h2 style="color: #000000 !important; font-family: Arial; font-size: 20px; font-style: normal; font-weight: 400; line-height: 24px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-shadow: none"><span class="h2_color_span_wrapper" style="color: #000000">Inspiration:</span></h2><!-- content end --></td><td align="left" valign="top" style="height: 39px; width: 49px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-1a060b409efc019bfbcff82361830a4c11e893ed.jpg" style="border: 0; display: block; height: 39px; line-height: 0; max-height: 39px; max-width: 49px; min-height: 39px; min-width: 49px; width: 49px" /></td><td align="left" valign="top" style="height: 39px; width: 49px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-6c2c25eeff3d97c374bb3ade4b4228231eb16e97.jpg" style="border: 0; display: block; height: 39px; line-height: 0; max-height: 39px; max-width: 49px; min-height: 39px; min-width: 49px; width: 49px" /></td><td align="left" valign="top" style="height: 39px; width: 49px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-8186defe5aa7c8f7c267c35e50ea8505d47a467b.jpg" style="border: 0; display: block; height: 39px; line-height: 0; max-height: 39px; max-width: 49px; min-height: 39px; min-width: 49px; width: 49px" /></td><td align="left" valign="top" style="height: 39px; width: 49px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-2ec49e72016309d4a24f2f8133fceb78e0c95af8.jpg" style="border: 0; display: block; height: 39px; line-height: 0; max-height: 39px; max-width: 49px; min-height: 39px; min-width: 49px; width: 49px" /></td><td align="left" valign="top" style="height: 39px; width: 49px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-75ca8fdc4df708d3a0aac2ec09020eaca7c6882d.jpg" style="border: 0; display: block; height: 39px; line-height: 0; max-height: 39px; max-width: 49px; min-height: 39px; min-width: 49px; width: 49px" /></td><td align="left" valign="top" style="height: 39px; width: 73px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-3c7eaf72c0d7b9f0c99253f94319010075ba3934.jpg" style="border: 0; display: block; height: 39px; line-height: 0; max-height: 39px; max-width: 73px; min-height: 39px; min-width: 73px; width: 73px" /></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div>
+
+
+									
+<div class="mi-all" style="display: block"><table width="700" class="mi-all" align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; display: block; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td align="left" valign="top" style="height: 13px; width: 700px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-23176f3865beaada62c110176520bdb3f273f33e.jpg" style="border: 0; display: block; height: 13px; line-height: 0; max-height: 13px; max-width: 700px; min-height: 13px; min-width: 700px; width: 700px" /></td></tr></tbody></table></td></tr></tbody></table></div>
+
+
+									
+<div class="mi-all" style="display: block"><table width="700" class="mi-all" align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; display: block; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="background-color: #FFFFFF; border: 0; border-collapse: collapse; border-spacing: 0" bgcolor="#FFFFFF"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td width="700" align="left" valign="middle" height="38" style="background-color: #FFFFFF; height: 38px; width: 700px" bgcolor="#FFFFFF"><table align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; margin: 0; min-width: 700px; padding: 0; width: 700px"><tbody><tr><td style="font-size: 1px; line-height: 1px" width="40"> </td><td><!-- content start --><h2 style="color: #000000 !important; font-family: Arial; font-size: 20px; font-style: normal; font-weight: 400; line-height: 24px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-shadow: none"><span class="h2_color_span_wrapper" style="color: #000000"><strong>Comment:</strong></span></h2><!-- content end --></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div>
+
+
+									
+<div class="mi-all" style="display: block"><table width="700" class="mi-all" align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; display: block; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td align="left" valign="top" style="height: 15px; width: 700px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-89eb0d4502e41b688d15041af56fe85eade4c8bc.jpg" style="border: 0; display: block; height: 15px; line-height: 0; max-height: 15px; max-width: 700px; min-height: 15px; min-width: 700px; width: 700px" /></td></tr></tbody></table></td></tr></tbody></table></div>
+
+
+									
+<div class="mi-all" style="display: block"><table width="700" class="mi-all" align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; display: block; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td align="left" valign="top"><table align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td align="left" valign="top" style="height: 140px; width: 54px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-bb66e79e9282fa41c3087ed648b00917e089cb34.jpg" style="border: 0; display: block; height: 140px; line-height: 0; max-height: 140px; max-width: 54px; min-height: 140px; min-width: 54px; width: 54px" /></td><td width="586" align="left" valign="top" height="140" style="background-color: #DEE0DF; height: 140px; width: 586px" bgcolor="#DEE0DF"><!-- content start --><div style="height: 139px; max-height: 139px; max-width: 585px; overflow: hidden; width: 585px"><p style="color: #000000 !important; font-family: Arial; font-size: 14px; font-style: normal; line-height: 24px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-shadow: none"><span class="p_color_span_wrapper" style="color: #000000">asiudhiauhsd uiahsuihasuidhauishdui hsudih aiudh isauhdui ashdui hsaidhsauihd uiahsiudhasuidhaiushduiahsdiuhadui hasuihduiashdiuashduihasuidhuiashdiuashdiusahduihaiusdhuiashduiashdiuahsdui huahushdua</span></p></div><!-- content end --></td><td align="left" valign="top" style="height: 140px; width: 60px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-bb6e2e864e73b6dd038d537723ed42d243776d11.jpg" style="border: 0; display: block; height: 140px; line-height: 0; max-height: 140px; max-width: 60px; min-height: 140px; min-width: 60px; width: 60px" /></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div>
+
+
+									
+<div class="mi-all" style="display: block"><table width="700" class="mi-all" align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; display: block; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="border: 0; border-collapse: collapse; border-spacing: 0"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td align="left" valign="top" style="height: 23px; width: 700px"><img border="0" src="https://lkc-oracle.github.io/email-template/images/image-523a2faea781da75ce9fac5d907a8370c4c8ee8a.jpg" style="border: 0; display: block; height: 23px; line-height: 0; max-height: 23px; max-width: 700px; min-height: 23px; min-width: 700px; width: 700px" /></td></tr></tbody></table></td></tr></tbody></table></div>
+
+
+									
+<div class="mi-all" style="display: block"><table width="700" class="mi-all" align="center" cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; display: block; margin: 0; min-width: 700px; padding: 0"><tbody><tr align="left" style="background-color: #FFFFFF; border: 0; border-collapse: collapse; border-spacing: 0" bgcolor="#FFFFFF"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td width="700" align="left" valign="middle" height="97" style="background-color: #FFFFFF; height: 97px; width: 700px" bgcolor="#FFFFFF"><!-- content start --><h3 style="color: #000000 !important; font-family: Arial; font-size: 20px; font-style: normal; font-weight: 400; line-height: 22px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-align: center; text-shadow: none" align="center"><span class="h3_color_span_wrapper" style="color: #000000">This is part of the program</span></h3><p style="color: #000000 !important; font-family: Arial; font-size: 14px; font-style: normal; line-height: 24px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-shadow: none"><span class="p_color_span_wrapper" style="color: #000000"> </span></p><h3 style="color: #000000 !important; font-family: Arial; font-size: 20px; font-style: normal; font-weight: 400; line-height: 22px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-align: center; text-shadow: none" align="center"><span class="h3_color_span_wrapper" style="color: #000000"><strong>"Real Time Feedback"</strong></span></h3><!-- content end --></td></tr></tbody></table></td></tr><tr align="left" style="background-color: #F80000; border: 0; border-collapse: collapse; border-spacing: 0" bgcolor="#F80000"><td><table cellspacing="0" cellpadding="0" border="0" style="border: 0; border-collapse: collapse; border-spacing: 0; min-width: 700px"><tbody><tr style="border: 0; border-collapse: collapse; border-spacing: 0"><td width="700" align="left" valign="middle" height="61" style="background-color: #F80000; height: 61px; width: 700px" bgcolor="#F80000"><!-- content start --><h3 style="color: #000000 !important; font-family: Arial; font-size: 20px; font-style: normal; font-weight: 400; line-height: 22px;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-align: center; text-shadow: none" align="center"><span class="h3_color_span_wrapper" style="color: #000000"><a href="http://lkc.oraclecorp.com/realTimeFeedback" target="_blank" rel="noopener" style="color: #FFFFFF !important;  margin-top:0; padding-top:0; margin-right:0; padding-right:0; margin-bottom:0; padding-bottom:0; margin-left:0; padding-left:0;  text-decoration: none; text-shadow: none"><span class="a_color_span_wrapper" style="color: #FFFFFF">Go to <strong>LKC</strong> and join in as well</span></a></span></h3><!-- content end --></td></tr></tbody></table></td></tr></tbody></table></div>
+
+
+						</td>
+					</tr>
+			</table>
+
+			
+
+			<div style="display: none; font: 15px courier; white-space: nowrap">
+			                      
+			                      
+			               
+			</div>
+
+  </body>
 </html>
